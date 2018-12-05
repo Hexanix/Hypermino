@@ -1,5 +1,7 @@
 -- Package.Path edit
 package.path = package.path .. ';scripts/?.lua' 
+package.path = package.path .. ';scripts/externalLibs/?.lua'
+
 require("mobdebug").start()
 
 module = {}
@@ -27,8 +29,8 @@ module = {}
 
 
 -- Some general tables
---[[ gameStates = { [1] = "menu", [2] = "game", [0] = "exit"}
-currentGameStateID = 1 ]]
+gameStates = { [1] = "menu", [2] = "game", [0] = "exit"}
+currentGameStateID = 1
 
 timerTable = {}
 timerTable.blockSpawnTimer = 3
