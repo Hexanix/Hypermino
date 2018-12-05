@@ -1,0 +1,1 @@
+"c:\Program Files\LOVE\love.exe" "E:\Programming\LOVE\LOVE Hypermino\bin -- NEW Collision"
