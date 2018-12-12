@@ -10,3 +10,6 @@ Hypermino ver. 0.2.2:
  To fix:
  - Possibly make multiminos that complete a line with a part outside delete the necessary blocks BUT NOT the ones outside.
    (Will have to somehow make it check for collision on every block.type switch on resting.)
+   
+   This is an alternative attempt at a menu, using anoter external lib - Nuklear.
+   
